@@ -5,7 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Menu, X } from "lucide-react"
+import { Menu } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const navigation = [
@@ -39,7 +39,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-2xl font-bold text-primary">ACME</span>
+              <span className="text-2xl font-bold text-primary">VisoNext</span>
             </Link>
           </div>
 
@@ -72,15 +72,10 @@ export default function Header() {
               </SheetTrigger>
               <SheetContent side="right">
                 <div className="flex flex-col h-full">
-                  <div className="flex items-center justify-between py-4 border-b">
+                  <div className="flex items-center justify-start py-4 border-b">
                     <Link href="/" className="flex items-center space-x-2">
-                      <span className="text-2xl font-bold text-primary">ACME</span>
+                      <span className="text-2xl font-bold text-primary">VisoNext</span>
                     </Link>
-                    <SheetTrigger asChild>
-                      <Button variant="ghost" size="icon" aria-label="Close menu">
-                        <X className="h-6 w-6" />
-                      </Button>
-                    </SheetTrigger>
                   </div>
                   <nav className="flex flex-col space-y-4 py-8">
                     {navigation.map((item) => (
@@ -110,4 +105,3 @@ export default function Header() {
     </header>
   )
 }
-

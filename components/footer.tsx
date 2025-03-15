@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="inline-block mb-6">
               <span className="text-2xl font-bold text-white">
-                <span className="text-primary">ACME</span> Corp
+                <span className="text-primary">VisoNext</span> Corp
               </span>
             </Link>
             <p className="mb-6">
@@ -75,7 +75,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-primary mr-3" />
-                <span>info@acmecorp.com</span>
+                <span>info@visonextcorp.com</span>
               </li>
             </ul>
           </div>
@@ -96,7 +96,8 @@ export default function Footer() {
 
         <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-slate-400 mb-4 md:mb-0">
-            © {new Date().getFullYear()} ACME Corporation. All rights reserved.
+            © {new Date().getFullYear()} this website was created by <span className="text-yellow-400 hover:underline"><Link href="https://github.com/faroukchebaiki">farouk chebaiki</Link></span>.
+            feel free to use it as a template for your projects.
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-slate-400">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">

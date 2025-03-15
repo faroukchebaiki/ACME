@@ -2,22 +2,26 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
+
 import { ThemeProvider } from "@/components/theme-provider"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
-import FaroukCard from "@/components/faroukCard"
+
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import FaroukCard from "@/components/faroukCard";
+
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Acme Corporation",
-    default: "Acme Corporation | Innovative Solutions for Modern Businesses",
+    template: "%s | VisoNext Corporation",
+    default: "VisoNext Corporation | Innovative Solutions for Modern Businesses",
   },
   description:
-    "Acme Corporation provides innovative solutions for modern businesses. Explore our services and learn how we can help your business grow.",
+    "VisoNext Corporation provides innovative solutions for modern businesses. Explore our services and learn how we can help your business grow.",
   keywords: ["business solutions", "innovation", "technology", "services", "consulting"],
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -36,6 +40,8 @@ export default function RootLayout({
             <Footer />
           </div>
         </ThemeProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )

@@ -222,11 +222,11 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-medium text-lg mb-2">Email</h3>
                         <p className="text-muted-foreground">
-                          General Inquiries: info@acmecorp.com
+                          General Inquiries: info@visonextcorp.com
                           <br />
-                          Support: support@acmecorp.com
+                          Support: support@visonextcorp.com
                           <br />
-                          Sales: sales@acmecorp.com
+                          Sales: sales@visonextcorp.com
                         </p>
                       </div>
                     </div>
@@ -298,7 +298,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="ACME Corporation Office Location"
+              title="VisoNext Corporation Office Location"
             ></iframe>
           </div>
         </div>

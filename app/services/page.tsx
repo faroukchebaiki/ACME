@@ -9,7 +9,7 @@ import { CheckCircle, ArrowRight } from "lucide-react"
 export const metadata: Metadata = {
   title: "Our Services | Comprehensive Business Solutions",
   description:
-    "Explore ACME Corporation's range of services designed to help your business grow, innovate, and succeed in today's competitive market.",
+    "Explore VisoNext Corporation's range of services designed to help your business grow, innovate, and succeed in today's competitive market.",
 }
 
 export default function ServicesPage() {

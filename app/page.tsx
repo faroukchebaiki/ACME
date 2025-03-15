@@ -8,7 +8,7 @@ import { ArrowRight, BarChart, Zap, Shield, Users } from "lucide-react"
 export const metadata: Metadata = {
   title: "Home | Innovative Solutions for Modern Businesses",
   description:
-    "ACME Corporation provides cutting-edge solutions to help your business thrive in today's competitive market.",
+    "VisoNext Corporation provides cutting-edge solutions to help your business thrive in today's competitive market.",
 }
 
 export default function Home() {
@@ -73,7 +73,7 @@ export default function Home() {
       <section className="py-20 bg-slate-50 dark:bg-slate-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose ACME</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose VisoNext</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               We deliver exceptional value through our comprehensive suite of services
             </p>
@@ -190,21 +190,21 @@ export default function Home() {
             {[
               {
                 quote:
-                  "ACME transformed our business operations, resulting in a 30% increase in efficiency and significant cost savings.",
+                  "VisoNext transformed our business operations, resulting in a 30% increase in efficiency and significant cost savings.",
                 author: "Sarah Johnson",
                 role: "CEO, TechStart Inc.",
                 image: "/placeholder.svg?height=100&width=100&text=SJ",
               },
               {
                 quote:
-                  "The team at ACME provided exceptional service and innovative solutions that helped us scale our business rapidly.",
+                  "The team at VisoNext provided exceptional service and innovative solutions that helped us scale our business rapidly.",
                 author: "Michael Chen",
                 role: "CTO, GrowthWave",
                 image: "/placeholder.svg?height=100&width=100&text=MC",
               },
               {
                 quote:
-                  "Working with ACME has been a game-changer for our company. Their expertise and dedication are unmatched in the industry.",
+                  "Working with VisoNext has been a game-changer for our company. Their expertise and dedication are unmatched in the industry.",
                 author: "Emma Rodriguez",
                 role: "Operations Director, Elevate Group",
                 image: "/placeholder.svg?height=100&width=100&text=ER",

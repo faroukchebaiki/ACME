@@ -8,7 +8,7 @@ import { CheckCircle, ArrowRight } from "lucide-react"
 export const metadata: Metadata = {
   title: "About Us | Our Story, Mission, and Values",
   description:
-    "Learn about ACME Corporation's journey, our mission to transform businesses, and the values that drive our success.",
+    "Learn about VisoNext Corporation's journey, our mission to transform businesses, and the values that drive our success.",
 }
 
 export default function AboutPage() {
@@ -19,7 +19,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/5 dark:from-primary/10 dark:to-black/50 z-0" />
         <div className="container relative z-10 mx-auto px-4">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">About ACME Corporation</h1>
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">About VisoNext Corporation</h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl">
               We're on a mission to transform how businesses operate in the digital age through innovative solutions and
               exceptional service.
@@ -35,7 +35,7 @@ export default function AboutPage() {
             <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-xl order-2 lg:order-1">
               <Image
                 src="/placeholder.svg?height=1000&width=800&text=Our+Story"
-                alt="ACME Corporation office"
+                alt="VisoNext Corporation office"
                 fill
                 className="object-cover"
               />
@@ -43,7 +43,7 @@ export default function AboutPage() {
             <div className="order-1 lg:order-2">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Founded in 2010, ACME Corporation began with a simple mission: to help businesses navigate the
+                Founded in 2010, VisoNext Corporation began with a simple mission: to help businesses navigate the
                 increasingly complex digital landscape. What started as a small consulting firm has grown into a
                 comprehensive business solutions provider with clients across the globe.
               </p>
@@ -53,7 +53,7 @@ export default function AboutPage() {
                 market shifts, we've remained steadfast in our dedication to delivering exceptional value.
               </p>
               <p className="text-lg text-muted-foreground">
-                Today, ACME Corporation stands as a leader in the industry, trusted by businesses of all sizes to
+                Today, VisoNext Corporation stands as a leader in the industry, trusted by businesses of all sizes to
                 provide the insights, tools, and strategies they need to thrive in a competitive marketplace.
               </p>
             </div>
@@ -193,7 +193,7 @@ export default function AboutPage() {
               {
                 year: "2010",
                 title: "Founded",
-                description: "ACME Corporation was established with a focus on business consulting services.",
+                description: "VisoNext Corporation was established with a focus on business consulting services.",
               },
               {
                 year: "2013",

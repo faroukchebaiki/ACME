@@ -255,7 +255,7 @@ export default function Home() {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10" asChild>
+            <Button size="lg" variant="outline" className="border-white/20 text-black hover:bg-white/10" asChild>
               <Link href="/services">Explore Our Services</Link>
             </Button>
           </div>
